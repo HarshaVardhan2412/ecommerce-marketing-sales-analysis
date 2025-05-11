@@ -17,7 +17,8 @@ This analysis addresses 20 key business questions:
 **Business Question 1:** Identify the months with the highest and lowest acquisition rates. What strategies could be implemented to address the fluctuations and ensure consistent growth throughout the year?
 
 **Answer:** 
-    Please find chart here : [acquisition_trend.png](./images/acquisition_trend.png)
+    Please find chart here : [acquisition_trend barplot](./images/Q1_acquisition_barplot.png) , [acquisition_trend lineplot](./images/Q2_acquisition_lineplot.png)
+
     **Highest Acquisition:**
 
         January 2019 (~215 customers), followed by March and April.
@@ -67,7 +68,23 @@ This analysis addresses 20 key business questions:
         3) Try Offers During Slow Periods: Run special deals or referral bonuses during the quiet months to see if they help bring in more customers.
 
         4) Plan Ahead with Predictions: Use simple forecasting tools to spot future slowdowns early. That way, you can plan smart marketing moves before things dip.
+        
+    📈 Customer Acquisition vs. Marketing Spend: 
 
+            To understand what influences customer acquisition, marketing data was chosen for analysis. Other datasets like sales, coupons, and tax were excluded because they are either related to customer behavior after acquisition (like sales and coupon usage) or are not directly relevant (like tax rates).
+
+            Marketing efforts, especially online and offline campaigns, are directly responsible for creating awareness and attracting potential new customers. This made the marketing dataset the most relevant for analyzing acquisition trends.
+
+            Daily marketing spend data was combined with daily customer acquisition counts, which were calculated from each customer’s first transaction date. A [scatter plot](./images/acquisition_vs_marketing_scatter.png) was used to visualize the relationship between marketing spend and new customer acquisition. Correlation was then calculated to measure the strength of the relationship.
+
+    🔍 Correlation Matrix:
+
+            Online_Spend	Offline_Spend	New_Customers
+            Online_Spend	1.000	0.360	-0.033
+            Offline_Spend	0.360	1.000	-0.024
+            New_Customers	-0.033	-0.024	1.000
+
+    The results showed a very weak negative correlation between both online and offline marketing spend and new customer acquisition. This indicates that higher spending on any particular day did not strongly influence how many customers joined on that same day.
 
 
 📊 Key Visualizations
