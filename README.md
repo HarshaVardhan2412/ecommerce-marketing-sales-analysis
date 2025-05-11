@@ -16,13 +16,13 @@ This analysis addresses 20 key business questions:
 
 1. Identify the months with the highest and lowest acquisition rates. What strategies could be implemented to address the fluctuations and ensure consistent growth throughout the year?
 
-**Answer:** January has highest acquisition rates 
-            December has lowest acquisition rates
+**Answer:** January has the highest acquisition rates.
+            December has the lowest acquisition rates.
 
         strategies : 
-        1) As January has highest number of monthly acquisitions , Align promotional campaigns with peak months and improve visibility in weaker months.This matches the count almost near to the peak month . 
+        1) As January has the highest monthly acquisitions, align promotional campaigns with peak months and improve visibility in weaker months. This matches the count near the peak month. 
 
-        2) Inorder to increase month on month growth make sure new offers are introduced and spend more on marketing. And make sure referrals are encouraged with great offers and perks for both exisitng and new user . 
+        2) To increase month-on-month growth, introduce new offers and spend more on marketing. Encourage referrals with great offers and perks for both existing and new users. 
 
 
 
