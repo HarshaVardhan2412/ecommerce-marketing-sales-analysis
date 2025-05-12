@@ -75,7 +75,7 @@ This analysis addresses 20 key business questions:
 
             Marketing efforts, especially online and offline campaigns, are directly responsible for creating awareness and attracting potential new customers. This made the marketing dataset the most relevant for analyzing acquisition trends.
 
-            Daily marketing spend data was combined with daily customer acquisition counts, which were calculated from each customer’s first transaction date. A [scatter plot](./images/acquisition_vs_marketing_scatter.png) was used to visualize the relationship between marketing spend and new customer acquisition. Correlation was then calculated to measure the strength of the relationship.
+            Daily marketing spend data was combined with daily customer acquisition counts, which were calculated from each customer’s first transaction date. A ![Scatter Plot](./images/acquisition_vs_marketing_scatter.png) was used to visualize the relationship between marketing spend and new customer acquisition. Correlation was then calculated to measure the strength of the relationship.
 
     🔍 Correlation Matrix:
 
