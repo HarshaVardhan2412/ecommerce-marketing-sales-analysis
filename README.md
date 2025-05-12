@@ -39,7 +39,7 @@ This analysis addresses 20 key business questions:
 **Business Question 2:** Analyze the data to determine if certain months consistently show higher or lower acquisition rates. How can the company capitalize on high-performing months and improve performance during slower periods?
 
 **Answer:** 
-    Please find chart here : [acquisition_trend.png](./images/acquisition_trend.png)
+    Please find chart here : [acquisition_trend barplot](./images/Q1_acquisition_barplot.png) , [acquisition_trend lineplot](./images/Q2_acquisition_lineplot.png)
 
     **Analysis:**
 
@@ -68,7 +68,7 @@ This analysis addresses 20 key business questions:
         3) Try Offers During Slow Periods: Run special deals or referral bonuses during the quiet months to see if they help bring in more customers.
 
         4) Plan Ahead with Predictions: Use simple forecasting tools to spot future slowdowns early. That way, you can plan smart marketing moves before things dip.
-        
+
     📈 Customer Acquisition vs. Marketing Spend: 
 
             To understand what influences customer acquisition, marketing data was chosen for analysis. Other datasets like sales, coupons, and tax were excluded because they are either related to customer behavior after acquisition (like sales and coupon usage) or are not directly relevant (like tax rates).
@@ -85,6 +85,39 @@ This analysis addresses 20 key business questions:
             New_Customers	-0.033	-0.024	1.000
 
     The results showed a very weak negative correlation between both online and offline marketing spend and new customer acquisition. This indicates that higher spending on any particular day did not strongly influence how many customers joined on that same day.
+
+**Business Question 3:** Identify periods with the strongest and weakest retention rates. What strategies could be implemented to improve retention during weaker months?
+
+**Answer:** 
+    Please find chart here : [Retention Rate HeatMap](./images/Q3_RetentionRate.png) , [Avg Retention Rate Barplot](./images/Q3_AvgRetentionRate.png)
+
+    **Approach:**
+
+        1) Built a retention matrix using transaction data.
+
+        2) Used a heatmap to quickly spot how customers came back over months.
+
+        3) Created a simple average retention trend per month.
+
+    **Key Findings:**
+
+        **Heatmap Observation:**
+            1) Customers acquired in August and July showed better retention trends, with higher percentages in the following months.
+
+            2) February and April had the lowest retention, showing rapid drop after the first month.
+
+        **Retention Trend Chart Insight:**
+            1) The average retention rate peaked in August (~30%), while February was the lowest (~16%).
+
+            2) This pattern suggests mid-year cohorts tend to be more loyal.
+    
+    strategies : 
+        1) For Feb and April, let's look deeper into what campaigns or offers we used and how those customers behaved.
+
+        2) Try early follow-ups, personalized nudges, or small loyalty perks—especially in their first week.
+
+        3) For Jul and Aug, let's learn what worked well and try replicating those strategies during weak months.
+
 
 
 📊 Key Visualizations
