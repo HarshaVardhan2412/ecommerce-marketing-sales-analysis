@@ -17,7 +17,7 @@ This analysis addresses 20 key business questions:
 **Business Question 1:** Identify the months with the highest and lowest acquisition rates. What strategies could be implemented to address the fluctuations and ensure consistent growth throughout the year?
 
 **Answer:** 
-    Please find chart here : [![acquisition_trend barplot](./images/Q1_acquisition_barplot.png)](./images/Q1_acquisition_barplot.png) , [![acquisition_trend lineplot](./images/Q2_acquisition_lineplot.png)](./images/Q2_acquisition_lineplot.png)
+    Please find chart here : [acquisition_trend barplot](./images/Q1_acquisition_barplot.png) , [acquisition_trend lineplot](./images/Q2_acquisition_lineplot.png)
 
     **Highest Acquisition:**
 
@@ -27,8 +27,13 @@ This analysis addresses 20 key business questions:
 
         November 2019 (~70 customers), followed by September and October.
 
+[![acquisition_trend barplot](./images/Q1_acquisition_barplot.png)](./images/Q1_acquisition_barplot.png)
+
     **Trend:**
         There is a steady decline in customer acquisition throughout the year.
+
+[![Acquisition Trend Lineplot](./images/Q2_acquisition_lineplot.png)](./images/Q2_acquisition_lineplot.png)
+
     
     strategies : 
         1) As January has the highest monthly acquisitions, align promotional campaigns with peak months and improve visibility in weaker months. This matches the count near the peak month. 
@@ -39,7 +44,7 @@ This analysis addresses 20 key business questions:
 **Business Question 2:** Analyze the data to determine if certain months consistently show higher or lower acquisition rates. How can the company capitalize on high-performing months and improve performance during slower periods?
 
 **Answer:** 
-    Please find chart here : [acquisition_trend barplot](./images/Q1_acquisition_barplot.png) , [acquisition_trend lineplot](./images/Q2_acquisition_lineplot.png)
+    Please find chart here :  [acquisition_trend barplot](./images/Q1_acquisition_barplot.png) , [acquisition_trend lineplot](./images/Q2_acquisition_lineplot.png) , [Scatter Plot](./images/acquisition_vs_marketing_scatter.png)
 
     **Analysis:**
 
@@ -51,6 +56,8 @@ This analysis addresses 20 key business questions:
 
             September (78), October (87), November (68)
 
+[![acquisition_trend barplot](./images/Q1_acquisition_barplot.png)](./images/Q1_acquisition_barplot.png)
+
     **Trend:**
 
         1) We saw strong customer growth from January to April, likely due to successful early-year campaigns or the 2) usual new-year shopping enthusiasm.
@@ -58,6 +65,8 @@ This analysis addresses 20 key business questions:
         2) From June onward, customer numbers started dropping steadily, hitting the lowest point in November.
 
         3) There wasn’t much of a bounce-back in December, which means end-of-year efforts didn’t have a big impact.
+
+[![Acquisition Trend Lineplot](./images/Q2_acquisition_lineplot.png)](./images/Q2_acquisition_lineplot.png)
     
     **strategies :**(How can the company capitalize on high-performing months and improve performance during slower periods?)
 
@@ -75,8 +84,9 @@ This analysis addresses 20 key business questions:
 
             Marketing efforts, especially online and offline campaigns, are directly responsible for creating awareness and attracting potential new customers. This made the marketing dataset the most relevant for analyzing acquisition trends.
 
-            Daily marketing spend data was combined with daily customer acquisition counts, which were calculated from each customer’s first transaction date. A scatter plot was used to visualize the relation.  
-[![Scatter Plot](./images/acquisition_vs_marketing_scatter.png)](./images/acquisition_vs_marketing_scatter.png) between marketing spend and new customer acquisition. Correlation was then calculated to measure the strength of the relationship.
+            Daily marketing spend data was combined with daily customer acquisition counts, which were calculated from each customer’s first transaction date. A scatter plot was used to visualize the relation between marketing spend and new customer acquisition. Correlation was then calculated to measure the strength of the relationship.
+
+[![Scatter Plot](./images/acquisition_vs_marketing_scatter.png)](./images/acquisition_vs_marketing_scatter.png)
 
     🔍 Correlation Matrix:
 
@@ -107,10 +117,14 @@ This analysis addresses 20 key business questions:
 
             2) February and April had the lowest retention, showing rapid drop after the first month.
 
+[![Retention Rate HeatMap](./images/Q3_RetentionRate.png)](./images/Q3_RetentionRate.png)
+
         **Retention Trend Chart Insight:**
             1) The average retention rate peaked in August (~30%), while February was the lowest (~16%).
 
             2) This pattern suggests mid-year cohorts tend to be more loyal.
+
+[![Avg Retention Rate Barplot](./images/Q3_AvgRetentionRate.png)](./images/Q3_AvgRetentionRate.png)
     
     strategies : 
         1) For Feb and April, let's look deeper into what campaigns or offers we used and how those customers behaved.
