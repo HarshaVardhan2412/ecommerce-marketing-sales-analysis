@@ -17,7 +17,7 @@ This analysis addresses 20 key business questions:
 **Business Question 1:** Identify the months with the highest and lowest acquisition rates. What strategies could be implemented to address the fluctuations and ensure consistent growth throughout the year?
 
 **Answer:** 
-    Please find chart here : [acquisition_trend barplot](./images/Q1_acquisition_barplot.png) , [acquisition_trend lineplot](./images/Q2_acquisition_lineplot.png)
+    Please find chart here : [![acquisition_trend barplot](./images/Q1_acquisition_barplot.png)](./images/Q1_acquisition_barplot.png) , [![acquisition_trend lineplot](./images/Q2_acquisition_lineplot.png)](./images/Q2_acquisition_lineplot.png)
 
     **Highest Acquisition:**
 
