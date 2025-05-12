@@ -19,7 +19,7 @@ This analysis addresses 20 key business questions:
 **Answer:** 
     Please find chart here : [acquisition_trend barplot](./images/Q1_acquisition_barplot.png) , [acquisition_trend lineplot](./images/Q2_acquisition_lineplot.png)
 
-    **Highest Acquisition:**
+    ### **Highest Acquisition**
 
         January 2019 (~215 customers), followed by March and April.
 
