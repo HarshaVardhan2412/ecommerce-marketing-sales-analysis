@@ -133,6 +133,74 @@ This analysis addresses 20 key business questions:
 
         3) For Jul and Aug, let's learn what worked well and try replicating those strategies during weak months.
 
+**Business Question 4:** **Analyze customer behavior during high retention months and suggest ways to replicate this success throughout the year.**
+
+**Answer:** 
+    Quick Access to Graphs:
+- [Marketing Spend vs Retention Rate](images/Q4Marketing%20Spend%20vs%20Retention%20Rate.png)
+- [Online Spend vs Retention Rate](images/Q4Online%20Spend%20vs%20Retention%20Rate.png)
+- [Coupon Usage % vs Retention Rate](images/Q4Coupon%20Usage%20%25%20vs%20Retention%20Rate.png)
+- [Avg Order Value & Delivery Charges vs Retention Rate](images/Q4Avg%20Order%20Value%20%26%20Delivery%20Charges%20vs%20Retention%20Rate.png)
+- [Correlation Heatmap - Monthly Data](images/Q4Correlation%20Heatmap%20-%20Monthly%20Data.png)
+
+
+    **Approach:**
+
+    1. Built a **retention matrix** to track how customers came back over months.
+    2. Created a **consolidated monthly dataset** with key data (marketing, coupons, order value, delivery charges, retention).
+    3. Used **simple plots and heatmaps** to find trends and patterns.
+    4. Checked **correlation matrix** to spot what really impacts retention.
+    5. Based on data, gave **clear recommendations** to improve retention in low months.
+
+    **Key Findings:**
+
+    | Parameter              | Observation                                         | Conclusion                                       |
+    |------------------------|-----------------------------------------------------|-----------------------------------------------------|
+    | Marketing Spend        | High spend months had low retention                 | Spending more didn't help retention                 |
+    | Coupon Usage %         | Same across months; no big effect on retention      | Coupons are not helping retention                   |
+    | Avg Order Value        | Low in high retention months                        | Small, frequent orders help keep customers coming   |
+    | Avg Delivery Charges   | Lowest in high retention months                     | Lower delivery costs = better retention             |
+    | Correlation Heatmap    | Strong negative link with order value & delivery charges | Lower ticket size and delivery charges matter most  |
+
+    📈 Visual Summary
+
+        ✅ Marketing Spend vs Retention Rate:
+![Marketing Spend vs Retention Rate](images/Q4Marketing%20Spend%20vs%20Retention%20Rate.png)
+        - No clear trend.
+        - High marketing spend does not guarantee higher retention.
+
+        ✅ Online Spend vs Retention Rate (Scatter):
+![Online Spend vs Retention Rate](images/Q4Online%20Spend%20vs%20Retention%20Rate.png)
+        - Random scatter.
+        - Weak correlation (-0.10).
+
+        ✅ Coupon Usage % vs Retention Rate (Scatter):
+![Coupon Usage % vs Retention Rate](images/Q4Coupon%20Usage%20%25%20vs%20Retention%20Rate.png)
+        - No clear trend.
+        - Coupons show flat impact on retention.
+
+        ✅ Avg Order Value & Delivery Charges vs Retention Rate:
+![Avg Order Value & Delivery Charges vs Retention Rate](images/Q4Avg%20Order%20Value%20%26%20Delivery%20Charges%20vs%20Retention%20Rate.png)
+        - Clear negative correlation.
+        - Low ticket size + Low delivery charges = High retention months.
+
+        ✅ Correlation Heatmap:
+![Correlation Heatmap - Monthly Data](images/Q4Correlation%20Heatmap%20-%20Monthly%20Data.png)
+        - Confirmed all the above statistically.
+
+    **Recommendations :**
+
+        | Strategy                                                     | Reason                                                    |
+        |--------------------------------------------------------------|--------------------------------------------------------|
+        | Cut delivery charges in low retention months                 | Low delivery charges improve retention                 |
+        | Promote small, bundle offers                                 | Customers like low ticket, frequent buys               |
+        | Stop spending more on ads without a clear strategy           | High spend months still had low retention              |
+        | Use smarter, product-specific coupons                        | Current generic coupons are not working                |
+        | Push winning products (like Drinkware, Apparel) in low months| These worked well in high retention months             |
+
+    **Conclusion :**
+        Retention is more about customer experience (low order value, delivery charges), not just ads or coupons.
+        Focus on easy, low-friction buying and right product targeting in low months.
 
 
 📊 Key Visualizations
