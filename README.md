@@ -433,21 +433,21 @@ This analysis addresses 20 key business questions:
 
     ***Highest ROI Month:***
 
-        July 2019 had the highest ROI of 3.47 despite a relatively lower spend of ₹121,808, yielding a revenue of ₹422,347.
+        - July 2019 had the highest ROI of 3.47 despite a relatively lower spend of ₹121,808, yielding a revenue of ₹422,347.
 
-        This means every ₹1 spent returned ₹3.47, showing very efficient spending.
+        - This means every ₹1 spent returned ₹3.47, showing very efficient spending.
 
     ***Lowest ROI Month:***
 
-        February 2019 had the lowest ROI of 2.63.
+        - February 2019 had the lowest ROI of 2.63.
 
-        Even with a lower spend of ₹137,108, revenue was also low at ₹360,036, indicating weak return per rupee spent.
+        - Even with a lower spend of ₹137,108, revenue was also low at ₹360,036, indicating weak return per rupee spent.
 
     ***Disproportionate Spending Month:***
 
-        December 2019 had the highest spend ₹199,808, but ROI dropped to 2.83, lower than November's 3.37 despite higher revenue.
+        - December 2019 had the highest spend ₹199,808, but ROI dropped to 2.83, lower than November's 3.37 despite higher revenue.
 
-        This suggests that the increased marketing did not proportionally increase revenue, hinting at saturation or ineffective targeting.
+        - This suggests that the increased marketing did not proportionally increase revenue, hinting at saturation or ineffective targeting.
 
     **Recommendations to improve ROI:**
 
