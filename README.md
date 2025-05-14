@@ -204,13 +204,13 @@ This analysis addresses 20 key business questions:
 
     **Recommendations :**
 
-        | Strategy                                                     | Reason                                                    |
-        |--------------------------------------------------------------|--------------------------------------------------------|
-        | Cut delivery charges in low retention months                 | Low delivery charges improve retention                 |
-        | Promote small, bundle offers                                 | Customers like low ticket, frequent buys               |
-        | Stop spending more on ads without a clear strategy           | High spend months still had low retention              |
-        | Use smarter, product-specific coupons                        | Current generic coupons are not working                |
-        | Push winning products (like Drinkware, Apparel) in low months| These worked well in high retention months             |
+| Strategy                                                     | Reason                                                 |
+|--------------------------------------------------------------|--------------------------------------------------------|
+| Cut delivery charges in low retention months                 | Low delivery charges improve retention                 |
+| Promote small, bundle offers                                 | Customers like low ticket, frequent buys               |
+| Stop spending more on ads without a clear strategy           | High spend months still had low retention              |
+| Use smarter, product-specific coupons                        | Current generic coupons are not working                |
+| Push winning products (like Drinkware, Apparel) in low months| These worked well in high retention months             |
 
     **Conclusion :**
         Retention is more about customer experience (low order value, delivery charges), not just ads or coupons.
@@ -233,11 +233,11 @@ This analysis addresses 20 key business questions:
 
     **Key Findings:**
 
-    | Period                  | Insights                                                                                      |
-    | ----------------------- | --------------------------------------------------------------------------------------------- |
-    | **January to May**      | Revenue was mainly driven by new customers. Existing customer contribution was low.           |
-    | **June to December**    | Existing customers started contributing more significantly, especially from October onwards.  |
-    | **November & December** | Highest existing customer revenue observed, indicating strong retention and repeat purchases. |
+| Period                  | Insights                                                                                      |
+| ----------------------- | --------------------------------------------------------------------------------------------- |
+| **January to May**      | Revenue was mainly driven by new customers. Existing customer contribution was low.           |
+| **June to December**    | Existing customers started contributing more significantly, especially from October onwards.  |
+| **November & December** | Highest existing customer revenue observed, indicating strong retention and repeat purchases. |
 
 ![Monthly Revenue from New vs Existing Customers](images/Q5MonthlyRevenuevsExistingCustomer.png)
 
@@ -329,11 +329,11 @@ This analysis addresses 20 key business questions:
 **✔ EDA & Analytical Logic:**
     1. Top Performing Products (Revenue-wise)
 
-    | Product                               | Total Revenue (\$) |
-    | ------------------------------------- | ------------------ |
-    | Nest Learning Thermostat 3rd Gen - SS | 690,000            |
-    | Nest Cam Outdoor Security Camera      | 630,000            |
-    | Nest Cam Indoor Security Camera       | 520,000            |
+| Product                               | Total Revenue (\$) |
+| ------------------------------------- | ------------------ |
+| Nest Learning Thermostat 3rd Gen - SS | 690,000            |
+| Nest Cam Outdoor Security Camera      | 630,000            |
+| Nest Cam Indoor Security Camera       | 520,000            |
 
 ![Top_10_Products_Revenue](images/Q7_Top_10_Products_Revenue.png)
 
@@ -342,10 +342,10 @@ This analysis addresses 20 key business questions:
 
     2. Coupon Usage Analysis (Simplified)
 
-    | Product                               | Non Utilized (%) | Utilized (%) |
-    | ------------------------------------- | ---------------- | ------------ |
-    | Nest Cam IQ                           | 67%              | 33%          |
-    | Nest Learning Thermostat 3rd Gen - SS | 68%              | 32%          |
+| Product                               | Non Utilized (%) | Utilized (%) |
+| ------------------------------------- | ---------------- | ------------ |
+| Nest Cam IQ                           | 67%              | 33%          |
+| Nest Learning Thermostat 3rd Gen - SS | 68%              | 32%          |
 
 ![Simplified_Coupon_Usage](images/Q7_Simplified_Coupon_Usage.png)
 
@@ -354,10 +354,10 @@ This analysis addresses 20 key business questions:
 
     3. Delivery Charges (Average per Order)
 
-    | Product                               | Avg Delivery Charge (\$) |
-    | ------------------------------------- | ------------------------ |
-    | Nest Cam IQ                           | 7.5                      |
-    | Nest Learning Thermostat 3rd Gen - SS | 7.1                      |
+| Product                               | Avg Delivery Charge (\$) |
+| ------------------------------------- | ------------------------ |
+| Nest Cam IQ                           | 7.5                      |
+| Nest Learning Thermostat 3rd Gen - SS | 7.1                      |
 
 ![Average_Delivery_Charges](images/Q7_Average_Delivery_Charges.png)
 
@@ -369,9 +369,9 @@ This analysis addresses 20 key business questions:
 
     4. Customer Location Distribution (Top Regions)
 
-    | Product                               | California | Chicago |
-    | ------------------------------------- | ---------- | ------- |
-    | Nest Learning Thermostat 3rd Gen - SS | 1050       | 1100    |
+| Product                               | California | Chicago |
+| ------------------------------------- | ---------- | ------- |
+| Nest Learning Thermostat 3rd Gen - SS | 1050       | 1100    |
     
 ![Customer_Location_Distribution](images/Q7_Customer_Location_Distribution.png)
 
@@ -388,15 +388,74 @@ This analysis addresses 20 key business questions:
 
     ✔ Insights & Recommendations
 
-    | Area               | Key Insight                                                     | Recommended Action                             |
-    | ------------------ | --------------------------------------------------------------- | ---------------------------------------------- |
-    | Inventory Planning | Top 3 products dominate with 45% of revenue.                    | Prioritize stock for these products.           |
-    | Coupon Strategy    | \~65% sales happen without coupons.                             | Avoid unnecessary discounts on these products. |
-    | Delivery Charges   | Consistent across products; no visible impact on sales.         | No change needed in delivery policy.           |
-    | Location Strategy  | California and Chicago are key buying regions (>60% customers). | Focus stock & marketing in these cities.       |
+| Area               | Key Insight                                                     | Recommended Action                             |
+| ------------------ | --------------------------------------------------------------- | ---------------------------------------------- |
+| Inventory Planning | Top 3 products dominate with 45% of revenue.                    | Prioritize stock for these products.           |
+| Coupon Strategy    | \~65% sales happen without coupons.                             | Avoid unnecessary discounts on these products. |
+| Delivery Charges   | Consistent across products; no visible impact on sales.         | No change needed in delivery policy.           |
+| Location Strategy  | California and Chicago are key buying regions (>60% customers). | Focus stock & marketing in these cities.       |
+
+**Business Question 8:** **Analyze the relationship between monthly marketing spend and revenue. Are there any months where marketing efforts yielded disproportionately high or low returns? How can marketing strategies be adjusted to improve ROI?**
+
+**Answer:** 
+
+**Quick Access to Graphs:**
+- [Monthly_ROI](images/Q8_Monthly_ROI.png)
+- [Monthly_Revenue vs MarketingSpend](images/Q8_MonthlyRevenuevsMarketingSpend.png)
+
+    **Approach:**
+
+    1) Merged monthly revenue and total marketing spend.
+    2) Calculated ROI (Revenue / Marketing Spend) for each month.
+    3) Visualized trends using line plots and bar plots for ROI.
+
+    **Key Observations & Proof:**
+    | Month    | Revenue  | Total Marketing Spend | ROI                         |
+    | -------- | -------- | --------------------- | --------------------------- |
+    | Jan 2019 | ₹462,867 | ₹154,929              | 2.99                        |
+    | Feb 2019 | ₹360,036 | ₹137,108              | 2.63                        |
+    | Mar 2019 | ₹410,408 | ₹122,250              | **3.36**                    |
+    | Apr 2019 | ₹443,100 | ₹157,027              | 2.82                        |
+    | May 2019 | ₹349,160 | ₹118,260              | 2.95                        |
+    | Jun 2019 | ₹359,527 | ₹134,260              | 2.68                        |
+    | Jul 2019 | ₹422,347 | ₹121,808              | **3.47**                    |
+    | Aug 2019 | ₹463,342 | ₹143,626              | 3.23                        |
+    | Sep 2019 | ₹402,000 | ₹137,650              | 2.92                        |
+    | Oct 2019 | ₹456,000 | ₹153,727              | 3.01                        |
+    | Nov 2019 | ₹544,958 | ₹161,808              | **3.37**                    |
+    | Dec 2019 | ₹564,958 | ₹199,808              | **2.83 (Lowest ROI in H2)** |
+
+![Monthly_ROI](images/Q8_Monthly_ROI.png)
+![Monthly_Revenue vs MarketingSpend](images/Q8_MonthlyRevenuevsMarketingSpend.png)
 
 
+    **Insights (with numeric proof):**
 
+    ***Highest ROI Month:***
+
+        July 2019 had the highest ROI of 3.47 despite a relatively lower spend of ₹121,808, yielding a revenue of ₹422,347.
+
+        This means every ₹1 spent returned ₹3.47, showing very efficient spending.
+
+    ***Lowest ROI Month:***
+
+        February 2019 had the lowest ROI of 2.63.
+
+        Even with a lower spend of ₹137,108, revenue was also low at ₹360,036, indicating weak return per rupee spent.
+
+    ***Disproportionate Spending Month:***
+
+        December 2019 had the highest spend ₹199,808, but ROI dropped to 2.83, lower than November's 3.37 despite higher revenue.
+
+        This suggests that the increased marketing did not proportionally increase revenue, hinting at saturation or ineffective targeting.
+
+    **Recommendations to improve ROI:**
+
+    1) Focus on months like March, July, and November, where lower or average spending gave higher returns (ROI > 3.3). Explore what worked in those months (campaign types, product focus).
+
+    2) For December and February, evaluate the campaign strategies and channels used, as high spends were not justified by the returns.
+
+    3) Test reducing December budgets slightly and reallocating some budget to months like July or March, which show better marketing efficiency.
 
 📊 Key Visualizations
 
