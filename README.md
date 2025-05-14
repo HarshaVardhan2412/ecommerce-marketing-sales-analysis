@@ -310,6 +310,94 @@ This analysis addresses 20 key business questions:
 
        3) Keep an eye on coupon users — if they only buy when discounts are given, they may not be loyal customers.
 
+
+**Business Question 7:** **Identify the top-performing products and analyze the factors driving their success. How can this insight inform inventory management and promotional strategies?**
+
+**Answer:** 
+**Quick Access to Graphs:**
+- [Top_10_Products_Revenue](images/Q7_Top_10_Products_Revenue.png)
+- [Simplified_Coupon_Usage](images/Q7_Simplified_Coupon_Usage.png)
+- [Average_Delivery_Charges](images/Q7_Average_Delivery_Charges.png)
+- [Customer_Location_Distribution](images/Q7_Customer_Location_Distribution.png)
+
+
+**✔ Business Story & Context:**
+
+    The company aims to spot the top-selling products and understand what drives their success. This will help in planning stock, promotions, and marketing more effectively.
+    We used 2019 online sales data to analyze product performance, coupon impact, delivery charges, and customer geography.
+
+**✔ EDA & Analytical Logic:**
+    1. Top Performing Products (Revenue-wise)
+
+    | Product                               | Total Revenue (\$) |
+    | ------------------------------------- | ------------------ |
+    | Nest Learning Thermostat 3rd Gen - SS | 690,000            |
+    | Nest Cam Outdoor Security Camera      | 630,000            |
+    | Nest Cam Indoor Security Camera       | 520,000            |
+
+![Top_10_Products_Revenue](images/Q7_Top_10_Products_Revenue.png)
+
+    Observation:
+        These top 3 products account for over 45% of total sales revenue among top 10 products.
+
+    2. Coupon Usage Analysis (Simplified)
+
+    | Product                               | Non Utilized (%) | Utilized (%) |
+    | ------------------------------------- | ---------------- | ------------ |
+    | Nest Cam IQ                           | 67%              | 33%          |
+    | Nest Learning Thermostat 3rd Gen - SS | 68%              | 32%          |
+
+![Simplified_Coupon_Usage](images/Q7_Simplified_Coupon_Usage.png)
+
+    Observation:
+        Across top products, approx. 65-68% of sales happen without coupon redemption, showing natural demand is strong even without discounts.
+
+    3. Delivery Charges (Average per Order)
+
+    | Product                               | Avg Delivery Charge (\$) |
+    | ------------------------------------- | ------------------------ |
+    | Nest Cam IQ                           | 7.5                      |
+    | Nest Learning Thermostat 3rd Gen - SS | 7.1                      |
+
+![Average_Delivery_Charges](images/Q7_Average_Delivery_Charges.png)
+
+    Observation:
+
+        Delivery charges are stable between $7 - $7.5 across all top products.
+
+        No specific pattern of reduced delivery leading to higher sales.
+
+    4. Customer Location Distribution (Top Regions)
+
+    | Product                               | California | Chicago |
+    | ------------------------------------- | ---------- | ------- |
+    | Nest Learning Thermostat 3rd Gen - SS | 1050       | 1100    |
+    
+![Customer_Location_Distribution](images/Q7_Customer_Location_Distribution.png)
+
+    Observation:
+        California and Chicago alone cover more than 60% of top products' customers, which shows clear focus areas for stock and campaigns.
+
+    Visualizations (Supported Charts)
+
+        1) All charts are clear, traditional bar charts.
+
+        2) Coupon usage is simplified into 'Utilized' vs 'Non Utilized', making it visually easy to interpret.
+
+       3) Legend, grids, and font sizes optimized for readability.
+
+    ✔ Insights & Recommendations
+
+    | Area               | Key Insight                                                     | Recommended Action                             |
+    | ------------------ | --------------------------------------------------------------- | ---------------------------------------------- |
+    | Inventory Planning | Top 3 products dominate with 45% of revenue.                    | Prioritize stock for these products.           |
+    | Coupon Strategy    | \~65% sales happen without coupons.                             | Avoid unnecessary discounts on these products. |
+    | Delivery Charges   | Consistent across products; no visible impact on sales.         | No change needed in delivery policy.           |
+    | Location Strategy  | California and Chicago are key buying regions (>60% customers). | Focus stock & marketing in these cities.       |
+
+
+
+
 📊 Key Visualizations
 
 Plots are saved under /images and referenced in the notebook.
