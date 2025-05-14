@@ -165,28 +165,42 @@ This analysis addresses 20 key business questions:
     📈 Visual Summary
 
         ✅ Marketing Spend vs Retention Rate:
+          - No clear trend.
+          - High marketing spend does not guarantee higher retention.
+
+  
 ![Marketing Spend vs Retention Rate](images/Q4Marketing%20Spend%20vs%20Retention%20Rate.png)
-        - No clear trend.
-        - High marketing spend does not guarantee higher retention.
+
 
         ✅ Online Spend vs Retention Rate (Scatter):
-![Online Spend vs Retention Rate](images/Q4Online%20Spend%20vs%20Retention%20Rate.png)
         - Random scatter.
         - Weak correlation (-0.10).
 
+        
+![Online Spend vs Retention Rate](images/Q4Online%20Spend%20vs%20Retention%20Rate.png)
+
+
         ✅ Coupon Usage % vs Retention Rate (Scatter):
-![Coupon Usage % vs Retention Rate](images/Q4Coupon%20Usage%20%25%20vs%20Retention%20Rate.png)
         - No clear trend.
         - Coupons show flat impact on retention.
 
+        
+![Coupon Usage % vs Retention Rate](images/Q4Coupon%20Usage%20%25%20vs%20Retention%20Rate.png)
+
+
         ✅ Avg Order Value & Delivery Charges vs Retention Rate:
-![Avg Order Value & Delivery Charges vs Retention Rate](images/Q4Avg%20Order%20Value%20%26%20Delivery%20Charges%20vs%20Retention%20Rate.png)
         - Clear negative correlation.
         - Low ticket size + Low delivery charges = High retention months.
 
+![Avg Order Value & Delivery Charges vs Retention Rate](images/Q4Avg%20Order%20Value%20%26%20Delivery%20Charges%20vs%20Retention%20Rate.png)
+
+
         ✅ Correlation Heatmap:
+         - Confirmed all the above statistically.
+
+         
 ![Correlation Heatmap - Monthly Data](images/Q4Correlation%20Heatmap%20-%20Monthly%20Data.png)
-        - Confirmed all the above statistically.
+
 
     **Recommendations :**
 
